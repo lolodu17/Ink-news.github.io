@@ -1,3 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head><title>Acceuil</title>
+<script type="text/javascript" src="app$.js"></script>
+</head>
+<body>
+	<div class="loader-container">
+<div class="loader">
+</div>
+<div class="Chargement">Chargement en cours ...</div>
+</div>
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+
+<style type="text/css">
+
+</style>
+<div class="menu">
+	<ul>
+		<li><a href="#"><span class="fa fa-home"></span>Acceuil</a></li>
+		<li><a href="#">Information</a> 
+			<ul> 
+				<li><a href="nouvelle nintendo.html">Nouvelle Nintendo</a></li>
+				<li><a href="nouvelle splat.html">Nouvelle Splatoon</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Musique</a> 
+			<ul> 
+				<li><a href="jukebox.html">Musique Nintendo eshop</a></li>
+				<li><a href="jukebox splat.html">Musique Splatoon</a></li>
+			</ul>
+		</li>
+		<li><a href="info bot.html">Info sur Nintentoont</a></li>
+		<li><a href="register.html">S'authentifier</a></li>
+
+</ul>
+</div>
+<?php include('index.php'); ?>
+<div align="center">
+<table width='1000'cellapacing='18' cellpadding='15'>
+<tr>
+<td bgcolor="white" height="400" valign="top">
 <?php
 if(isset($_POST['submit']))
 {
@@ -29,3 +72,11 @@ if(isset($_POST['submit']))
 <input type="password" name="repeatpassword"><br><br>
 <input type="submit" value="S'inscrire" name="submit">
 </form>
+
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>
